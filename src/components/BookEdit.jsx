@@ -16,8 +16,9 @@ function BookEdit({ onSubmit, book: { title } }) {
     }
 
     return (<div className="book-edit">
-         <label>Title</label>
         <form onSubmit={handleSubmit}>
+        <label>Title</label>
+
             <input
                 className="input"
                 placeholder="New Book Title"
