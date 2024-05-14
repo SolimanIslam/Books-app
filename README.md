@@ -1,6 +1,6 @@
 # Books App v1.3 - 3-Communication-Using-the-Context-System
 
-The Books App v1.3 introduces a significant refactor using context (BooksContext), where the application state is defined centrally. This allows all components to access the BooksContext directly, eliminating the need for prop drilling down the components tree. Additionally, a custom hook is utilized within the app for efficient state management.
+The Books App v1.3 introduces a significant refactor using context (BooksContext), where the application state is defined centrally. This allows all components to access the BooksContext directly, eliminating the need for prop drilling down the components tree. Additionally, a custom hook is utilized within the app.
 
 ## Previous Versions
 
@@ -18,7 +18,7 @@ The Books App v1.3 introduces a significant refactor using context (BooksContext
 - Fetch books from API server on app start
 - Update book list on changes to reflect changes on the server
 - Centralized application state using context (BooksContext)
-- Utilization of custom hooks for efficient state management
+- Utilization of custom hooks.
 
 
 
