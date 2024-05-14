@@ -1,6 +1,8 @@
-# Books App
+# Books App v1.0 - 1-Unpersisted Books
 
-The Books App is a simple web application built with React.js that lets you keep track of your books. You can add the title of a book, and then a card with an image from picsum.com will be created for that book. The app also provides functionality to edit and delete books.
+The Books App v1.0 is the initial version of a simple web application built with React.js that allows you to keep track of your books. 
+In this version, the book list is not persistently stored, meaning the added books will not be saved after refreshing the page or restarting the app. 
+This simple web application built with React.js lets you add book titles, create cards with images from picsum.com for each book, and offers functionality to edit and delete books.
 
 ## Features
 
