@@ -58,6 +58,9 @@ To run the app locally, follow these steps:
 
 ![image](https://github.com/SolimanIslam/Books-app/assets/136899518/f6d5913c-3ab0-4208-bd1d-bcded7a7d277)
 
-https://github.com/SolimanIslam/Books-app/assets/136899518/ca1d3b56-06bb-452e-bbd8-7886be41344e
+https://github.com/SolimanIslam/Books-app/assets/136899518/d2167a35-80c3-43e0-9001-f8fffc463c23
+
+
+
 
 
