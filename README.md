@@ -1,6 +1,12 @@
-# Books App v1.2 - Persisted Books
+# Books App v1.3 - 3-Communication-Using-the-Context-System
 
-The Books App v1.2 is an updated version of the simple web application built with React.js that allows you to keep track of your books. In this version, the app uses an API server to persistently store the book list using JSON-server and the axios package. The usage of a REST client verified that the JSON-server is working appropriately. Additionally, useEffect is utilized to fetch all the books from the API server once the app starts. The methods on the books array have been refactored to update changes on the JSON server and then update the books array accordingly.
+The Books App v1.3 introduces a significant refactor using context (BooksContext), where the application state is defined centrally. This allows all components to access the BooksContext directly, eliminating the need for prop drilling down the components tree.
+
+## Previous Versions
+
+- Version v1.0: [Branch: 1-unpersisted-books](https://github.com/SolimanIslam/Books-app/tree/1-unpersisted-books)
+- Version v1.2: [Branch: 2-persisted-books](https://github.com/SolimanIslam/Books-app/tree/2-persisted-books)
+
 
 ## Features
 
@@ -11,6 +17,8 @@ The Books App v1.2 is an updated version of the simple web application built wit
 - Persistently store book list using JSON-server
 - Fetch books from API server on app start
 - Update book list on changes to reflect changes on the server
+- Centralized application state using context (BooksContext)
+
 
 ## Technologies Used
 
@@ -46,7 +54,7 @@ To run the app locally, follow these steps:
 4. You can edit the book details by clicking on the "Edit" icon on the book card.
 5. To delete a book, click on the "Delete" icon on the book card.
 
-This version (v1.2) of the app has a branch named "2-persisted-books" to distinguish it from the previous version (v1.0) named "1-unpersisted-books." The v1.0 version also has a branch named "1-unpersisted-books."
+
 
 ![image](https://github.com/SolimanIslam/Books-app/assets/136899518/f6d5913c-3ab0-4208-bd1d-bcded7a7d277)
 
