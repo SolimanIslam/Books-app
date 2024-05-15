@@ -21,6 +21,9 @@ The Books App v1.3 introduces a significant refactor using context (BooksContext
 - Utilization of custom hooks.
 
 
+## useCallback and useEffect
+
+To prevent unnecessary request loops, functions are wrapped with useCallback and called inside useEffect, ensuring optimal performance and data retrieval.
 
 ## Technologies Used
 
